@@ -16,4 +16,4 @@ jobs:
         with:
           node-version: "18"
       - name: Install dependancies
-        run: npm npm clean-install
+        run: npm clean-install
