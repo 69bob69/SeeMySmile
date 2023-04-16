@@ -1,0 +1,2 @@
+Unity/SeeMySmile/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Unity/SeeMySmile/Assets/Scenes/SampleScene.unity filter=lfs diff=lfs merge=lfs -text
