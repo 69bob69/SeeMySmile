@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using BlendShapesEnum = BlendShapes.Enums.BlendShapes;
 
 public class MouthController : MonoBehaviour
 {
@@ -44,11 +45,14 @@ public class MouthController : MonoBehaviour
         switch(index)
         {
             case 0:
-                mouthModifier.SetBlendShapeIndex(59);
+                mouthModifier.SetBlendShapeIndex((int)BlendShapesEnum.smile);
                 break;
             case 1:
-                mouthModifier.SetBlendShapeIndex(50);
+                mouthModifier.SetBlendShapeIndex((int)BlendShapesEnum.frown);
                 break;
+            case 2:
+                mouthModifier.SetBlendShapeIndex((int)BlendShapesEnum.JawOpen);
+                break;    
             default:
                 Debug.LogError("Invalid blend shape index!");
                 break;

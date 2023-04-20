@@ -1,9 +1,12 @@
-# This .gitignore file should be placed at the root of your Unity project directory
+# Node Modules
+node_modules
+
+# Unity
 #
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/Unity/SeeMySmile/Library/
-/Unity/SeeMySmile/Temp/
+# Main directories of project that do not need to be version controlled
+Unity/SeeMySmile/Library/
+Unity/SeeMySmile/Temp/
 /Unity/SeeMySmile/obj/
 /Unity/SeeMySmile/Build/
 /Unity/SeeMySmile/Builds/
@@ -70,6 +73,3 @@ sysinfo.txt
 # Temporary auto-generated Android Assets
 /Unity/SeeMySmile/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /Unity/SeeMySmile/[Aa]ssets/[Ss]treamingAssets/aa/*
-
-#Node Modules
-node_modules
