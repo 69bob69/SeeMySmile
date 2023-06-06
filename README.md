@@ -1,7 +1,3 @@
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-
 # See My Smile
 
 SeeMySmile is a Unity project that allows users to engage with emotional intelligence training for their clients with autism spectrum disorder. This software utilises agent-avatars capable of conveying subtle facial emotions for their interpretation in Virtual Reality.
